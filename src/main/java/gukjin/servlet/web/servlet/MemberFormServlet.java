@@ -17,6 +17,7 @@ public class MemberFormServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
         resp.setContentType("text/html");
         resp.setCharacterEncoding("utf-8");
 
